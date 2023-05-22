@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Number9{
+public static void main(String args[]){
+Scanner sc=new Scanner(System.in);
+int i=sc.nextInt();
+int l=sc.nextInt();
+int count=0;
+int sum=0;
+while(i<=l)
+{
+if(i%2==0){
+count++;
+sum=sum+i;}
+i++;}
+System.out.println("count of even numbers:"+count);
+System.out.println("sum of even numbers:"+sum);
+}
+}
