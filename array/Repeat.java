@@ -1,22 +1,24 @@
 import java.util.Scanner;
 
-public class Search {
+public class Repeat {
     public static void main(String[] args) {
-        //Wap enter an array and search any particular element and find the count.
         Scanner sc=new Scanner(System.in);
+        System.out.println("Enter size of an array:");
         int size=sc.nextInt();
         int arr[]=new int[size];
-        for(int p=0;p<size;p++){
-          arr[p]=sc.nextInt();
+        System.out.println("enter elment in array:");
+        for(int i=0;i<size;i++){
+            arr[i]=sc.nextInt();
         }
-        System.out.println("enter a serching element:");
+        System.out.println("enter a number:");
         int num=sc.nextInt();
         int count=0;
-        for(int q=0;q<size;q++){
-            if(arr[q]==num){
+        for(int j=0;j<size;j++){
+            if(arr[j]==num){
                 count=count+1;
-            }
+            } 
         }
         System.out.println("count is:"+count);
     }
+    
 }
