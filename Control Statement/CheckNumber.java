@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//Write a program to check whether the given number is positive or negative?
 class CheckNumber{
 
 public static void main(String args[]){
