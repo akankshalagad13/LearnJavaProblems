@@ -1,0 +1,66 @@
+1.What is a constructor in object-oriented programming?
+-->Constructor is a block of code.
+   Constructor is used to initialize an object.It is called when object is created.
+   Constructor name is must be same as class name.
+   Constructor may not have any return type.
+   Constructor is not used for static method.
+   There are three types of constructor:
+            1)Non Argument constructor
+            2)Parametrized constructor
+            3)Default constructor
+    when there is no constructor in java java compiler provide the default constructor.
+ 
+2.What is the purpose of a constructor?
+-->The main purpose of the constructor is used to initialize an object.
+
+3.How is a constructor different from a regular method?
+-->regular methods are used to perform specific task or operation while constructor are used to initialize an object.
+
+4.Can a class have multiple constructors?
+-->Yes, class can have a multiple constructor.
+
+5..What is the default constructor?
+-->When there is no constructor in java java compiler provide a default constructor to initialize an object.
+
+6..What is constructor overloading?
+-->Constructor overloading means a class can have a multiple constructor with same name but different parameters.
+
+7.How is a constructor invoked in a class?
+-->Constructor is involked automatically when object of the class is created.
+
+8.What is inheritance in object-oriented programming?
+-->it is a mechanism in which  child class(subclass) acquires the properties and behaviours of parent class or superclass is called inheritance in oop.
+
+9.What are the benefits of using inheritance?
+-->using inheritance we can reuse the code.
+   the inheritance is used in abstraction.
+   inheritance makes the code flexible to use.
+   it minimize the size of code.
+
+10.What is a superclass and subclass in inheritance?
+-->subclass acquire all the properties of superclass.
+   Superclass is inherited by subclass.
+
+11.What is an array?
+-->array is collection of similar type of data types with contiguos memort location.
+   Array in java is index based the first elemnt is stored at 0 index and second elemnt is placed at 1 index.
+
+12.Can the size of an array be changed after it is declared?
+-->the size of the array is fixed we cannot change the size once is is declared.
+
+13..What is the maximum number of elements an array can hold?
+-->It depend on the programming language and its data type.
+
+14.What is the difference between a one-dimensional and a two-dimensional array?
+-->store a single list of same data type in one-dimentional
+   In two-dimentional list of list of same data type is used.
+   in one dimension represent multiple data items as list
+   In two-dimention represent multiple data items as table in the form of rows and columns.
+
+15.How do you initialize an array with specific values?
+-->int arr[]=new int[];
+
+16.What is the purpose of an array in programming?
+-->the main purpose of the array is used to storing multiple elements of the same data type in a contiguos memory location.
+
+   

@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//wap enter an array and find the sum and count of element present at even position
 class Array1{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

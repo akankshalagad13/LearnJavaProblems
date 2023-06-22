@@ -1,0 +1,104 @@
+1)What do you mean by java?
+-->java is a programming language.simply java is used to communicate with computers.
+   java is platform independent programming language.java is robust,secure,high level,object oriented programming language.
+
+2)Explain the jvm architecture?
+-->jvm is a java virtual machine is an abstract machine. it is a virtual machine beacause it doesn't exist physically.
+   jvm loads the code,verify the code then execute the code and it provide runtime environment in which the byte code is executed.
+
+3)What is the use of Controll statement in java?
+-->Control statements in Java are used to control the flow of execution in a program. 
+   Control statements allow programmers to make decisions, iterate over a set of values, and control the flow of code execution.
+   
+4)What is pc register?
+-->The PC register is an internal component of the Java Virtual Machine (JVM), which is responsible for executing Java bytecode.
+
+5)What is hotspot profiler?
+-->
+6)Where the jvm located in file explorer?
+-->the Java Virtual Machine (JVM) itself is not located in the file explorer 
+   The exact location of the JVM installation will depend on your operating system and the version of Java you have installed.
+
+7)What is jdk?
+-->The Java Development Kit (JDK) is a software
+   development environment which is used to develop Java applications and applets.
+   It contains JRE and development tools.
+   It physically exists.
+
+8)What is jre?
+-->JRE is a java runtime environment.
+   It is a software package provided by oracle.
+   That allows you to run Java applications on your computer or device.
+   JRE includes the JVM and required runtime libraries.
+ 
+9)What is execution engine?
+-->An execution engine is a component of a runtime system that is responsible for executing and running computer
+ programs or scripts. It interprets and executes the code written in a specific programming language or bytecode.
+
+10)Can you explain the System.out.println()
+-->System is a class
+   out is an object of the printstream class
+   println is an method of the printstream class.
+
+11)Can you please explain the public static void main(String args[])?
+-->public is a access modifier.public means it is visible to all.
+
+12)What kind of mainly data types in java?
+-->There is primitive and non primitive data tyeps in java.
+   primitive data types are int,boolean,double,long,char,byte,float and short
+   non primitive data types are array,string, etc.\
+
+13)What is the size of int data type?
+-->4 byte
+
+14)What is the size of boolean data type?
+-->1 bit
+
+15)What is variable?
+--> variable is a container which hold the data.
+
+16)what is the default value of char data type?
+-->2 byte
+
+17)what is the default value of boolean data type?
+-->1 bit
+18)Difference between break and continue statements.
+--> we use break statement to break the current flow of the programme.
+    continue statement continues the current flow of the program and skips the remaining code at the specified condition
+
+19)Which is considered as a selection statement?
+-->selection statement is used in program to make the decision and execute the different block of codes.
+if else is the selection statement.
+
+20)Which is considered as a jump statement?
+-->jump statements transfer the execution control to the other part of the program.
+
+21)Mention some advantages and disadvantages of Arrays.
+-->Advantages of Arrays:
+
+Efficient access to elements using indexes.
+Sequential storage allows for easy iteration and sequential operations.
+Random access capability to retrieve or modify specific elements.
+Fixed size provides efficient memory allocation and predictable memory usage.
+
+Disadvantages of Arrays:
+
+Fixed size can limit dynamic resizing.
+Contiguous memory allocation may lead to memory issues.
+Inefficient insertion and deletion operations.
+Potential wasted space if array size is larger than the number of elements.
+
+22)What will happen if you do not initialize an Array?
+-->the elements of the array will typically have default values assigned to them based on the data type.
+
+23)What is the default value of Array in Java?
+-->the default values of array elements depend on the data type of the array. 
+
+24)Can you declare an array without assigning the size of an array?
+-->yes we can declare an array without assigning the size of an array.
+
+25)Where is an Array stored in JVM memory?
+-->Array stored in JVM memory in heap memory.
+
+26)Can a Negative number be passed in Array size?
+-->no

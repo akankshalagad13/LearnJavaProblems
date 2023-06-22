@@ -1,0 +1,56 @@
+1) What is a method in object-oriented programming?
+-->Method is a block of code or collection of instructions that perform a specific task
+   it is used to achieve the reusability of code.
+   The method is executed only when we call or invoke it.
+there are two types of methods
+a)pre-defined:method that already defined in class
+b)use defined:the method is written by programmer or user.
+
+2)What is the purpose of a method in a class?
+-->Methods encapsulate the functionality related to an object's behavior, allowing objects of the class to interact with 
+each other and manipulate their internal state.
+   
+3)What are the key components of a method declaration?
+-->access modifiers specify the visibility of the method, such as "public," "private," or "protected," determining whether it can be accessed from other parts of the code
+The return type indicates the type of value that the method will return, or "void" if it does not return any value.
+
+4)Can a method have parameters? If so, how are they specified?
+-->Yes, methods can have parameters. 
+   is specified using an parenthesis
+   parameter have data type and parameter name
+The parameter name is used as a reference within the method to access the value passed in.
+
+5)How does a method return a value? What is the syntax for it?
+--> method returns a value using the return keyword 
+syntax:
+public returnType methodName(parameters) {
+    return value; 
+}
+
+6)What is a constructor in object-oriented programming?
+-->constructor in object-oriented programming is to initialize an object.
+constructor is a speacial method in java that has same name as class name
+it does not have any return type.
+
+7)How does a constructor differ from a method?
+--> constructor is a special method used to initialize an object when it is created.
+ It has the same name as the class and is automatically called when new is used to create an object. 
+
+methods are regular functions within a class that perform specific actions or provide specific behaviors. 
+
+8)What is the purpose of a constructor in a class?
+-->constructor is a special method used to initialize an object when it is created.
+
+9)What is the default constructor, and when is it used?
+-->deafault constructor is used when there is no constructor in java 
+it is provide by java compiler
+
+10)Can a class have multiple constructors? If so, how are they defined?
+-->es, a class can have multiple constructors in Java. 
+Having multiple constructors allows for different ways to create objects of the class.
+
+11)What is the role of a type constructor?
+-->The role of a type constructor is to define and create new types by taking one or more existing types as arguments. 
+
+
+

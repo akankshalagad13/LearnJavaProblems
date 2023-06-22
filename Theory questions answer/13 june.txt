@@ -1,0 +1,51 @@
+Q1.What is JVM (Java Virtual Machine) and why is it important?
+-->It is an abstract machine.it doesn't physically exist.jvm provide the runtime environment in which byte code run
+   jvm perform task like loads code,verifies code and compile the code and also provide the runtime environment.
+
+Q2.Explain the concept of platform independence provided by JVM.
+-->platform is a hardware or software in which program runs.
+   java is write once run anywhere language.java code can be executed on many platforms.
+   java compile the code and convert it into byte code.and byte code can be executed on any platform.
+
+Q3.What are the key components of JVM architecture?
+-->JVM is a abstract machine.its internal architecture contains the key components of JVM architecture are classloader, 
+   Memory area and execution engine.
+
+Q4.Describe the purpose and function of the Classloader in JVM.
+-->classloader is a subsystem of jvm which is used to load the class files.
+   whenever we run java program it is loaded first by classloader.
+
+Q5.What are the different runtime data areas in JVM and what are their functions?
+-->The runtime data areas in JVM are class area,heap,stack,pc register andnative method stack,
+class area stores the per class structure such as runtime constant pool heap area is a runtime data area in which objects are allocated.
+java stack holds frames.program counter register contains the address of the JVM.Native method stack contains all the native methods used in applications.
+
+Q6.Explain the difference between the Heap and the Stack in JVM.
+-->It is the runtime data area in which objects are allocated.
+   java stack stores the frames.
+   
+Q7.How does the Garbage Collector work in JVM? What are its goals?
+-->
+
+Q8.What is the role of the JIT (Just-In-Time) Compiler in JVM?
+-->JIT is used to improve the performance.
+   JIT compiler parts the byte code that have same functionallity at the same time.
+   reduces the amount of time needed for compilation.
+
+Q9.Describe the steps involved in JIT compilation and its benefits.
+-->firstly it parts the byte code that have same functionality at the same time.
+   then reduces the amount of time needed for compilation.
+
+Q10.What is bytecode? How does JVM execute bytecode?
+-->Bytecode in java is a set of instructions for java virtual machine.
+   They can be executed by interpretetion.by JIT compiling and any other technique chosen by designer for particular JVM.
+
+Q11.Explain the role of the interpreter in JVM.
+-->interpreter is a program that translate the programming language into comprensible language.
+1.It translates only one statement of the program at a time.
+2. More often than not are smaller than compilers.
+3. Errors are shown line by line.
+4. It does not convert source code into object code instead it scans it line by line.
+
+Q12.What is the purpose of the Method Area in JVM? What kind of information does it store?
+-->Class(Method) Area stores per-class structures such as runtime constant pool,field and method data,the code for methods.
